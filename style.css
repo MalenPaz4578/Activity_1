@@ -1,0 +1,120 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-image: url('313847926_1076504976376175_8659762660620364402_n.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.info {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+header .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    word-spacing: 50px;
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+header hr {
+    border: 2px solid #fff;
+    width: 50%;
+    margin: 10px auto;
+}
+section.main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 5px inset rgb(44, 158, 192);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+section.main img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 50px;
+    border: 5px outset #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s;
+}
+section.main img:hover{
+    transform: scale(1.2);
+}
+.image-quote {
+    display: flex;
+    align-items: center;
+}
+.quote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(127, 255, 212, 0.692);
+    border-radius: 10px;
+}
+.quote p {
+    font-size: 18px;
+    font-style: italic;
+}
+.content-txt {
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-style: italic;
+}
+.content-txt ul {
+    list-style-type: square;
+}
+.personal-background {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-inline-end: 50px;
+    
+}
+.school-background h2{
+    font-size: 20px;
+    font-style: italic;
+}
+.background{
+    color: green;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 5px;
+    text-align: center; 
+}
+
+
+/*@keyframes mymove {
+    from {background-color: rgb(229, 255, 0);}
+    to {background-color: rgb(72, 255, 0);}
+}   
+
+div.background p {
+    font-size: 16px;
+    word-spacing: 10px;
+}*/
+
+
+
+
+
+   
